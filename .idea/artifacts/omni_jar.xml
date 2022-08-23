@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="omni:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/omni_jar</output-path>
+    <root id="archive" name="omni.jar">
+      <element id="module-output" name="omni" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/formdev/flatlaf/0.46/flatlaf-0.46.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../jortho.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
